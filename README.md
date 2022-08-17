@@ -6,7 +6,7 @@ python==3.8.10
 
 transformers==4.1.1
 
-torch==1.10.0
+pytorch==1.10.0
 
 ## Run:
 
