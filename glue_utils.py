@@ -235,5 +235,11 @@ def XML2arrayRAW(pos_path,neg_path):
 
     return reviews,negReviews,posReviews
 
-
+def get_domain_schema(domains):
+    domain_schema = {}
+    dom_id = 0
+    for dom in domains:
+        domain_schema[dom] = dom_id
+        dom_id += 1
+    return domain_schema
     
