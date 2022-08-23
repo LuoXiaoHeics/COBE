@@ -22,9 +22,15 @@ As for cross-domain Amazon dataset, you need to change ```SentProcessor()``` to 
 After running, a result file can be found in the output directory (named test_results.txt).
 
 ## Cite:
+
 @article{luo2022mere,
+
   title={Mere Contrastive Learning for Cross-Domain Sentiment Analysis},
+  
   author={Luo, Yun and Guo, Fang and Liu, Zihan and Zhang, Yue},
+  
   journal={arXiv preprint arXiv:2208.08678},
+  
   year={2022}
+  
 }
